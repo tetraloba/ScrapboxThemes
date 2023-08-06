@@ -1,0 +1,36 @@
+/* Compact Theme for Scrapbox */
+.page-list-item {
+    width: 100% !important;
+    height: 1.5em !important;
+    margin: 0px !important;
+}
+.grid li.page-list-item a .content {
+    flex-direction: row !important; /* flexの向きを水平方向に */
+}
+.header { /* タイトルプレビュー */
+    border-top: 0px !important;
+    padding: 0px !important;
+    padding-left: 0.5em !important;
+    width: 30% !important;
+}
+.description { /* 本文プレビュー */
+    width: 70% !important;
+    height: 100% !important;
+    padding: 0px !important;
+}
+.description br {
+    display: none; /* 本文プレビュー内の改行を無効化 */
+}
+.description p::after {
+    content: "    |    "; /* 改行の代わりにセパレータを表示 */
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+.app {
+    padding-top: 40px !important; /* 40pxはヘッダーの高さ */
+}
+.quick-launch {
+    margin-bottom: 0px !important;
+}
