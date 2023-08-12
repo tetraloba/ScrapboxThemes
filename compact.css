@@ -13,10 +13,10 @@
     padding-left: 0.5em !important;
     width: 30% !important;
 }
-.description { /* 本文プレビュー */
-    width: 70% !important;
-    height: 100% !important;
-    padding: 0px !important;
+.grid li.page-list-item a .description { /* 本文プレビュー */
+    width: 70%;
+    height: 1.5rem;
+    padding: 0px;
 }
 .description br {
     display: none; /* 本文プレビュー内の改行を無効化 */
@@ -33,4 +33,26 @@
 }
 .quick-launch {
     margin-bottom: 0px !important;
+}
+ /* 検索結果の表示改善 */
+.list li.page-list-item a .description {
+    display: inline-block;
+    margin: 0px;
+    height: 1.5rem;
+    width: 70%;
+}
+.list li.page-list-item a .title-with-description {
+    display: inline-block;
+    width: 30%;
+    height: 2rem;
+    font-size: 14px;
+    overflow: hidden;
+}
+.list li.page-list-item a {
+    padding: 0px;
+    height: 1.5rem;
+}
+.list li.page-list-item a .content {
+    margin-left: 0px;
+    height: 2rem;
 }
