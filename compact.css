@@ -59,6 +59,7 @@
 /* 関連ページの見出し */
 .related-page-list .grid li {
     height: 2rem;
+    width: auto;
 }
 .grid li.relation-label a {
        height: 2rem;
