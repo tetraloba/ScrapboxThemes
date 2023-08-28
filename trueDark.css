@@ -1,0 +1,61 @@
+html {
+    background-color: black;
+}
+div {
+    background-color: black;
+}
+.navbar-default {
+    background-color: black;
+}
+.grid li.page-list-item a {
+    background-color: black;
+    color: white;
+}
+.grid li.page-list-item a .title {
+    color: #aaaaaa;
+}
+.container .quick-launch .flex-box .text-right { /* Date Created などのソート順 */
+    background-color: #222222;
+}
+.page-sort-menu .tool-btn { /* ソート順の文字列 */
+    color: yellow;
+}
+.container .quick-launch .flex-box .flex-item .left-box { /* プロジェクト名 */
+    background-color: #222222;
+}
+.quick-launch .project-home { /* プロジェクト名の文字列 */
+    color: green;
+}
+.new-button .horizontal-line, .new-button .vertical-line { /* 新規作成ボタン */
+    background-color: #222222;
+}
+.page { /* 編集画面 */
+    background-color: #222222;
+}
+.line.line-title { /* 編集画面タイトル */
+    color: white;
+    caret-color: white;
+}
+.editor { /* 編集画面本文 */
+    color: grey;
+    caret-color: white;
+}
+.cursor svg rect { /* キャレット */
+    fill: green;
+}
+:root {
+    --code-color: #746ddc; /* インラインコード デフォルト#342d9c */
+}
+code.highlight .hljs-selector-class {
+    color: #56bbff; /* CSSセレクタ デフォルト#268bd2 */
+}
+/* 検索結果 */
+.list li.page-list-item a .description {
+    color: #999999; /* 本文文字色 */
+}
+.list li.page-list-item a {
+    color: #bbbbbb; /* タイトル文字色 */
+}
+:root {
+    --tool-text-color: grey; /* Pages Files Ttile Body などのラベル文字色 */
+}
