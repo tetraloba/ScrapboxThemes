@@ -61,11 +61,15 @@
 }
 .list li.page-list-item a {
     padding: 0px;
-    height: 1.5rem;
+    height: 2rem;
+    min-height: 0px;
 }
 .list li.page-list-item a .content {
     margin-left: 0px;
     height: 2rem;
+}
+.list li.page-list-item a .icon { /* 新規作成ボタン */
+    width: 0;
 }
 /* 関連ページの見出し */
 .related-page-list .grid li {
