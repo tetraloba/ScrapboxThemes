@@ -1,21 +1,32 @@
 /* Compact Theme for Scrapbox */
-.page-list-item {
-    width: 100% !important;
-    height: 1.5em !important;
-    margin: 0px !important;
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+.page-list.clearfix {
+    width: 100%;
+}
+.page-list .grid li {
+    width: 100%;
+    height: 1.2em;
+    margin: 0px;
 }
 .grid li.page-list-item a .content {
-    flex-direction: row !important; /* flexの向きを水平方向に */
+    flex-direction: row; /* flexの向きを水平方向に */
+    height: inherit;
 }
 .header { /* タイトルプレビュー */
     border-top: 0px !important;
     padding: 0px !important;
     padding-left: 0.5em !important;
     width: 30% !important;
+    height: inherit;
 }
 .grid li.page-list-item a .description { /* 本文プレビュー */
     width: 70%;
-    height: 1.5rem;
+    height: inherit;
     padding: 0px;
 }
 .description br {
