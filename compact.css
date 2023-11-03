@@ -85,3 +85,11 @@
 .grid li.splitter.splitter {
     height: 1.5rem;
 }
+
+/* 編集画面の */
+.line .text {
+    height: 1.5em; /* 行間を狭く */
+}
+.cursor-line {
+    height: 1.5em !important; /* 選択行が広くなる問題を解消 */
+}
