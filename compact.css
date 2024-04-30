@@ -48,7 +48,19 @@
 .quick-launch {
     margin-bottom: 0px !important;
 }
- /* 検索結果の表示改善 */
+
+/* フッターの表示改善 */
+.footer {
+    background-color: transparent;
+}
+.status-bar {
+    background-color: transparent;
+}
+.page-list {
+    margin-bottom: 30px;
+}
+
+/* 検索結果の表示改善 */
 .list li.page-list-item a .description {
     display: inline-block;
     margin: 0px;
