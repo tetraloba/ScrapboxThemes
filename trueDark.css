@@ -4,6 +4,9 @@ html {
 div {
     background-color: black;
 }
+li {
+    background-color: black;
+}
 .navbar-default {
     background-color: black;
 }
@@ -26,6 +29,27 @@ div {
 .quick-launch .project-home { /* プロジェクト名の文字列 */
     color: green;
 }
+/* infoボタンのメニュー */
+button {
+    color: gray;
+}
+.dropdown-menu {
+    color: gray;
+    background-color: black;
+}
+.dropdown-menu>li>a {
+    color: gray;
+}
+.page-menu ul>li>div {
+    color: gray;
+}
+div .created{
+    color: gray;
+}
+.dropdown-menu .divider { /* 項目の区切り線 */
+    background-color: gray;
+}
+/* infoボタンのメニュー ここまで */
 .new-button .horizontal-line, .new-button .vertical-line { /* 新規作成ボタン */
     background-color: #222222;
 }
